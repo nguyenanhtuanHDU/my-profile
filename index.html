@@ -10,11 +10,69 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>My Profile</title>
   </head>
 
   <body>
-    
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2 class="hello">Hello, it's me</h2>
+          <h1 class="name">Nguyen Anh Tuan</h1>
+
+          <h1>
+            <div class="introduce-text">And my skill is</div>
+            <span
+              class="txt-rotate animation-text"
+              data-period="2000"
+              data-rotate='[ "NodeJS", "NestJS", "Angular", "ReactJS" ]'
+            ></span>
+          </h1>
+
+          <h2 class="hello mt-3">Contacts</h2>
+          <div class="iconWrap d-flex">
+            <a
+              class="icon"
+              href="https://www.facebook.com/profile.php?id=100035686244839"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="icon" href="https://www.instagram.com/anhtuan02042002/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="icon" href="https://github.com/nguyenanhtuanHDU">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="icon" href="https://www.tiktok.com/@anhtuan02042002">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+          <button class="btn-downloadCv">Download CV</button>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="avatarWrap">
+            <div class="moon">
+              <div class="avtart">
+                <img src="/image/tuan.jpg" />
+              </div>
+              <div class="orbit">
+                <p>✈️</p>
+                <div class="luxurious">⭐️</div>
+                <div class="rob">☄️</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 
   <script
@@ -33,3 +91,5 @@
     crossorigin="anonymous"
   ></script>
 </html>
+
+<script src="main.js"></script>
